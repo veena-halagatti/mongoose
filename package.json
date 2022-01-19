@@ -1,0 +1,27 @@
+{
+  "name": "mangoose",
+  "version": "1.0.0",
+  "description": "In this we are performing mongoose curd operation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Mongoose",
+    "Mangodb",
+    "nodejs",
+    "curd"
+  ],
+  "author": "Veena Halagatti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mangodb": "^1.0.0",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
